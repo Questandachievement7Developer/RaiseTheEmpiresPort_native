@@ -55,7 +55,7 @@ bash
 ```
 3. If there's confirmation [Y/n]..?, just type Y
 4. Wait until the installation is completed (and make sure your internet is stable)
-5. Choose 'StartOnline' to start the server
+5. Choose 'StartGame' to start the server
 6. After the empires-server is running, copy the link into the Puffin Browser
 
 *Done!*
@@ -69,7 +69,7 @@ empires-server
 > Tip: If the installation often failed / takes too long, try to use VPN
 
 
-*Notice: You can't choose 'StartOffline' to play on Puffin Browser, since Puffin doesn't allow us to play on local IP. That feature only work if you set up your phone as Mobile Hotspot and connect it to your PC.*
+*Notice: You can't choose 'StartLocally' to play on Puffin Browser, since Puffin doesn't allow us to play on local IP. That feature only work if you set up your phone as Mobile Hotspot and connect it to your PC.*
 
 
 ### Installing on GNU/Linux/Ubuntu

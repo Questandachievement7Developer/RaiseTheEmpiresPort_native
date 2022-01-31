@@ -2,7 +2,7 @@ Announcement
 
 Universal Build 46x
 ---- Port_native Additions and bugfixes
-+ Added sshkeyreg() for ssh id_rsa handler for StartOnline game session
++ Added sshkeyreg() for ssh id_rsa handler for StartGame game session
 + registrarServerID() has been updated to meet the ssh localhost.run compliant "Adding ssh key"
 + openssl error on previous build caused by rootfs update in termux has been Fixed
 + iOSResumeOp() has been added in order to handle interrupted session unexpectedly and resume whenever its available again

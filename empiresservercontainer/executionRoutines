@@ -219,7 +219,7 @@ echo "Mitigating error by doing reinstallation"
 rm -rf "${origindir}/installed.flag"
 ##############################
 # Install dependencies
-pkginstall "python dialog python-setuptools wget proot busybox tar sed python3 python3.7 python3.8 subversion python3-setuptools pip"
+pkginstall "libxml2 libxslt python dialog python-setuptools wget proot busybox tar sed python3 python3.7 python3.8 subversion python3-setuptools pip"
 ##############################
 startupDependenciesCheckFix
 fi
@@ -356,7 +356,7 @@ distrospecificwarning(){
 
 serverLocalWarning(){
   if [ ${distribution} == "termux" ]; then
-    dialog --msgbox "Please Be aware that puffin browser cannot connect locally and only works if you startOnline. Connect to PC with <this device IP>:5005" 40 40
+    dialog --msgbox "Please Be aware that puffin browser cannot connect locally and only works if you StartGame. Connect to PC with <this device IP>:5005" 40 40
   fi
 }
 

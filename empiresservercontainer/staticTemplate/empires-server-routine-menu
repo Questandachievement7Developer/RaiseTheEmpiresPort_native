@@ -167,8 +167,8 @@ function menuStart(){
 BACKTITLE="empires-server Build ${ver} by RaiseTheEmpires team serverID ${serverID}"
 TITLE="Empires And Allies Mission Control"
 OPTIONS=(
-"StartOnline" "Start empires-server online"
-"StartOffline" "Start Empires-server offline" )
+"StartGame" "Start empires-server online"
+"StartLocally" "Start Empires-server offline" )
 
 mission=$(dialog --clear \
                 --backtitle "$BACKTITLE" \
@@ -179,7 +179,7 @@ mission=$(dialog --clear \
                 2>&1 >/dev/tty)
 
 
-if [ ${mission} == 'StartOnline' ]; then
+if [ ${mission} == 'StartGame' ]; then
 serverRun
 fi
 
@@ -187,7 +187,7 @@ if [ ${mission} == 'Start_as_dedicatedServer' ]; then
 serverHighUptime
 fi
 
-if [ ${mission} == 'StartOffline' ]; then
+if [ ${mission} == 'StartLocally' ]; then
 serverLocal
 fi
 menuSel
