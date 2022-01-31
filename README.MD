@@ -14,7 +14,7 @@ This project is dedicated to preserving and renewing this Flash game so that it'
 ## Current Status
 | Things | Parameter |
 | ------- | ------ |
-| Current Developed Build | ![version](https://img.shields.io/badge/build-470-blue) |
+| Current Developed Build | ![version](https://img.shields.io/badge/build-480-blue) |
 | Current Stable Releases | ![version](https://img.shields.io/badge/build-470-blue) |
 | Current Built Server Size | [![size](https://img.shields.io/badge/size-498%20MB-brightgreen)](#) |
 | Current Source Size | [![size](https://img.shields.io/badge/size-30%20MB-brightgreen)](#) |
@@ -25,6 +25,7 @@ This project is dedicated to preserving and renewing this Flash game so that it'
 
 | Build | Update | Release date  | Release details |
 | ------- | ------ | ------------  | -------- |
+| 470~489 | Patches towards playstore Termux failure and merge with the current version | February, 2022 | [Currently on Progress] |
 | 467~470 | Platform Trial, ssh keyfixes, Content update merge with version 0.06a | July, 2020 | :tickets: [Single Script Archive](https://github.com/Questandachievement7Developer/RaiseTheEmpiresPort_Native/releases/tag/Build_46x)
 | 450 | Added support for new termux dependencies | June, 2020 | :tickets: [Single Script Archive](https://github.com/Questandachievement7Developer/RaiseTheEmpiresPort_Native/releases/tag/Build_450) |
 | 416~418 | ServerID implementation, Virtualenv dependencies, etc.. | May, 2020 | :tickets: [Single Script Archive](https://github.com/Questandachievement7Developer/RaiseTheEmpiresPort_Native/releases/tag/Build_416) |
