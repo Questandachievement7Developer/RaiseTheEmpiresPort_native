@@ -5,6 +5,7 @@ echo "URL=https://github.com/AcidCaos/empires-and-allies" >> ${RaiseTheEmpiresRN
 echo "Binary=empires-server" >> ${RaiseTheEmpiresRNTINI}
 echo "[InstallFolders]" >> ${RaiseTheEmpiresRNTINI}
 echo "InstallPath=${RUNTIMEDIR}" >> ${RaiseTheEmpiresRNTINI}
+#echo "InstallPath=$(pwd)/._MEI202028" >> ${RaiseTheEmpiresRNTINI}
 echo "MyGamesPath=$(pwd)/RaiseTheEmpires/fileSave" >> ${RaiseTheEmpiresRNTINI}
 echo "[InstallSettings]" >> ${RaiseTheEmpiresRNTINI}
 echo "Arch=$(uname -m)" >> ${RaiseTheEmpiresRNTINI}

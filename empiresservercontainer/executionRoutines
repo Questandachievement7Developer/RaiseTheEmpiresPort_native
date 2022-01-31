@@ -375,6 +375,7 @@ installEnv(){
   pipenv install --skip-lock tendo py3amf pep517 flask flask_session python-editor flask_sqlalchemy flask_compress brotli flask_socketio daiquiri python-editor
   pipenv install --skip-lock libscrc
   pipenv install --skip-lock "git+git://github.com/christhechris/libscrc.git#egg=libscrc"
+  pipenv install --skip-lock xmldiff tqdm jsonpatch # new dependencies
   cd ${origindir}
   echo 1 > ${origindir}/installed.flag
 fi

@@ -4,7 +4,8 @@ echo "Name=RaiseTheEmpires_GNU_LINUX_EDITION" >> ${RaiseTheEmpiresRNTINI}
 echo "URL=https://github.com/AcidCaos/empires-and-allies" >> ${RaiseTheEmpiresRNTINI}
 echo "Binary=empires-server" >> ${RaiseTheEmpiresRNTINI}
 echo "[InstallFolders]" >> ${RaiseTheEmpiresRNTINI}
-echo "InstallPath=$(pwd)/RaiseTheEmpires" >> ${RaiseTheEmpiresRNTINI}
+#echo "InstallPath=$(pwd)/RaiseTheEmpires" >> ${RaiseTheEmpiresRNTINI} #misconfiguration
+echo "InstallPath=${RUNTIMEDIR}" >> ${RaiseTheEmpiresRNTINI}
 echo "MyGamesPath=$(pwd)/RaiseTheEmpires/fileSave" >> ${RaiseTheEmpiresRNTINI}
 echo "[InstallSettings]" >> ${RaiseTheEmpiresRNTINI}
 echo "Arch=$(uname -m)" >> ${RaiseTheEmpiresRNTINI}
