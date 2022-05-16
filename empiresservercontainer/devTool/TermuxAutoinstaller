@@ -1,11 +1,9 @@
 #!/bin/sh
-termux-setup-storage
-pkg install wget clang openssl -y
-ver=467
-pagever=46x
-if [ ! -f empires-server-termux ]; then
-wget "http://github.com/Questandachievement7Developer/RaiseTheEmpiresPort_Native/releases/download/Build_${pagever}/empires-server-termux-${ver}" -O empires-server-termux
-else
-echo "empires-server has been downloaded"
-fi
-chmod +x empires-server-termux
+pkg install git wget python -y
+pkg update
+pkg install libxml2 libxslt -y
+pkg install dropbear -y
+pkg install openssh -y
+git clone https://github.com/AcidCaos/raisetheempires
+pip install "git+https://github.com/hex-in/libscrc.git"
+pip install tendo py3amf "flask<2.1.0" flask_session flask_sqlalchemy flask_compress flask_socketio daiquiri python-editor xmldiff jsonpatch tqdm
