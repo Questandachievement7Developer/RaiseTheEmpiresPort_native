@@ -61,7 +61,7 @@ pip install tendo py3amf "flask<2.1.0" flask_session flask_sqlalchemy flask_comp
 ##
 ```
 3. If there's confirmation [Y/n]..?, type Y
-4. If there's several confirmation [Y/I/N/O/D/Z]..?, type Y
+4. If there are several confirmation [Y/I/N/O/D/Z]..?, type Y
 5. Wait until the installation is completed (and make sure your internet is stable)
 
 Then use this command everytime you want to play:
