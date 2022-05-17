@@ -20,12 +20,11 @@ This project is dedicated to preserving and renewing this Flash game so that it'
 | Current Source Size | [![size](https://img.shields.io/badge/size-30%20MB-brightgreen)](#) |
 
 
-
+<!--
 ## Releases
 
 | Build | Update | Release date  | Release details |
 | ------- | ------ | ------------  | -------- |
-| 470~489 | Patches towards playstore Termux failure and merge with the current version | February, 2022 | [Currently on Progress] |
 | 467~470 | Platform Trial, ssh keyfixes, Content update merge with version 0.06a | July, 2020 | :tickets: [Single Script Archive](https://github.com/Questandachievement7Developer/RaiseTheEmpiresPort_Native/releases/tag/Build_46x)
 | 450 | Added support for new termux dependencies | June, 2020 | :tickets: [Single Script Archive](https://github.com/Questandachievement7Developer/RaiseTheEmpiresPort_Native/releases/tag/Build_450) |
 | 416~418 | ServerID implementation, Virtualenv dependencies, etc.. | May, 2020 | :tickets: [Single Script Archive](https://github.com/Questandachievement7Developer/RaiseTheEmpiresPort_Native/releases/tag/Build_416) |
@@ -42,7 +41,8 @@ This project is dedicated to preserving and renewing this Flash game so that it'
 | 99  | Initial Host forwarding | January, 2020 | [Release cancelled] |
 | 57~58 | First initial Release on android x86 and GNU systems natively | January, 2020 | :tickets: [Single Script Archive](http://tiny.cc/RaiseTheEmpires2020_01_24) |
 | 20  | Released noArch version | January, 2020 | :tickets: [Single Script Archive](http://tiny.cc/RaiseTheEmpires29TNoArch) |
-> Single Script Archive is a single installation file that automates the installation of the server (Same as a setup wizard in windows but custom built). Now you don't even need to download the file, just copy paste the command below
+-->
+
 
 ## How to install ?
 ### Installing on Android using Termux
