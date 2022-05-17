@@ -46,71 +46,89 @@ This project is dedicated to preserving and renewing this Flash game so that it'
 
 ## How to install ?
 ### Installing on Android using Termux
-1. Install Termux and Puffin Browser from Play Store
-2. Copy paste this command to Termux:
+1. Install Puffin Browser on Play Store
+2. Download Termux latest version from here: https://github.com/termux/termux-app/releases
+3. Copy paste this command to Termux (You only need to do this once):
 ```
-curl -s "https://raw.githubusercontent.com/Questandachievement7Developer/RaiseTheEmpiresPort_Native/master/empiresservercontainer/devTool/TermuxAutoinstaller" | bash -
-./empires-server-termux
-bash
+pkg install git wget python -y
+pkg update
+pkg install libxml2 libxslt -y
+pkg install dropbear -y
+pkg install openssh -y
+git clone https://github.com/AcidCaos/raisetheempires
+pip install "git+https://github.com/hex-in/libscrc.git"
+pip install tendo py3amf "flask<2.1.0" flask_session flask_sqlalchemy flask_compress flask_socketio daiquiri python-editor xmldiff jsonpatch tqdm
+##
 ```
-3. If there's confirmation [Y/n]..?, just type Y
-4. Wait until the installation is completed (and make sure your internet is stable)
-5. Choose 'StartGame' to start the server
-6. After the empires-server is running, copy the link into the Puffin Browser
+3. If there's confirmation [Y/n]..?, type Y
+4. If there's several confirmation [Y/I/N/O/D/Z]..?, type Y
+5. Wait until the installation is completed (and make sure your internet is stable)
 
-*Done!*
-
-If you want to run it next time, just type this:
+Then use this command everytime you want to play:
 ```
-empires-server
+cd raisetheempires
+python empires-server.py --no-popup --no-crash-log --port 5005
+##
 ```
 
+After that, swipe left on Termux
+Tap 'New Session' option
+copy this command to start hosting on public link:
+```
+ssh -R 80:localhost:5005 nokey@localhost.run
+##
+```
+If there's confirmation [yes/no]..?, type yes
 
-> Tip: If the installation often failed / takes too long, try to use VPN
-
-
-*Notice: You can't choose 'StartLocally' to play on Puffin Browser, since Puffin doesn't allow us to play on local IP. That feature only work if you set up your phone as Mobile Hotspot and connect it to your PC.*
+*Done*
 
 
 ### Installing on GNU/Linux/Ubuntu
 1. Assuming that you have terminal opened
-2. Copy paste this command to terminal
+2. Copy paste this command to Terminal (You only need to do this once):
 ```
-sudo curl -s "https://raw.githubusercontent.com/Questandachievement7Developer/RaiseTheEmpiresPort_Native/master/empiresservercontainer/devTool/GNULinuxAutoinstaller" | bash -
-sudo ./empires-server-gnulinux
-bash
+sudo apt update
+sudo apt install python3 python3-pip
+git clone https://github.com/AcidCaos/raisetheempires
+cd raisetheempires
+pip3 install -r requirements.txt
 ```
-3. If you want to run it next time, just type this:
+
+Then use this command everytime you want to play:
 ```
-empires-server
+python empires-server.py --no-popup --no-crash-log --port 5005
 ```
+You need to use Flash-enabled browser, then go to this url: http://127.0.0.1:5005
+
+*Optional*
+If you want to host online on public link,
+Open new Terminal window, then use this command:
+```
+ssh -R 80:localhost:5005 nokey@localhost.run
+```
+If there's confirmation [yes/no]..?, type yes
+
+*Done*
+
 
 ### Installing on macOS
-1. Open the Terminal app
-2. Copy paste these command to terminal
+1. Download Python 3.8 from here: https://www.python.org/ftp/python/3.8.6/python-3.8.6-macosx10.9.pkg
+2. Install it
+3. Then open Terminal, copy paste this command (You only need to do this once):
 ```
-/bin/bash -c "$(curl -s "https://raw.githubusercontent.com/Questandachievement7Developer/RaiseTheEmpiresPort_Native/master/empiresservercontainer/devTool/macOSautoinstaller" | bash -)"
-./empires-server-macOS
+git clone https://github.com/AcidCaos/raisetheempires
+cd raisetheempires
+pip3 install -r requirements.txt
 ```
-3. If you want to run it next time, just type this:
-```
-empires-server
-```
+If there's notice that you haven't install Xcode, install it first
 
-### Installing on iOS/iPadOS (highly experimental, high probability doesnt work)
-1. Install iSH from Appstore
-2. Install Puffin Browser from Appstore for the flash browser
-3. Copy paste this command in iSH
+Then use this command everytime you want to play:
 ```
-apk add bash curl
-curl -s "https://raw.githubusercontent.com/Questandachievement7Developer/RaiseTheEmpiresPort_Native/master/empiresservercontainer/devTool/iOSautoinstaller" | bash -
-./empires-server-appleiOS
+python empires-server.py --no-popup --no-crash-log --port 5005
 ```
-7. Allow location usage while using **Do not set it to always allow (it will killed by the iOS/iPadOS)**
-6. If you want to run it next time, just type this:
-```
-empires-server
-```
+You need to use Flash-enabled browser, then go to this url: http://127.0.0.1:5005
+
+*Done*
 
 
 ## Feels confused about the installation setup or anything wanted to implemented in this version?
