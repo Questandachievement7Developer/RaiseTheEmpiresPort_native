@@ -15,8 +15,8 @@ This project is dedicated to preserving and renewing this Flash game so that it'
 | Things | Parameter |
 | ------- | ------ |
 | Current Developed Build | ![version](https://img.shields.io/badge/build-480-blue) |
-| Current Stable Releases | ![version](https://img.shields.io/badge/build-470-blue) |
-| Current Built Server Size | [![size](https://img.shields.io/badge/size-498%20MB-brightgreen)](#) |
+| Current Releases | ![version](https://img.shields.io/badge/build-470-blue) |
+| Current Main Repo Size | [![size](https://img.shields.io/badge/size-585%20MB-brightgreen)](#) |
 | Current Source Size | [![size](https://img.shields.io/badge/size-30%20MB-brightgreen)](#) |
 
 
