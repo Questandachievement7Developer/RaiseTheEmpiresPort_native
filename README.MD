@@ -82,9 +82,9 @@ copy this command to start hosting on public link:
 ssh -R 80:localhost:5005 nokey@localhost.run
 ##
 ```
-Press Enter to run the command
-
-If there's confirmation [yes/no]..?, type yes
+Press Enter to run the command<br>
+If there's confirmation [yes/no]..?, type yes<br>
+Copy generated link into Puffin Browser
 
 
 *Done*
