@@ -74,8 +74,9 @@ python empires-server.py --no-popup --no-crash-log --port 5005
 Press Enter to run the command
 
 
-After that, swipe left on Termux
-Tap 'New Session' option
+After that, swipe left on Termux<br>
+Tap 'New Session' option<br>
+![alt text](https://github.com/Questandachievement7Developer/RaiseTheEmpiresPort_Native/blob/master/empiresservercontainer/devTool/termux_new-session.jpg)
 copy this command to start hosting on public link:
 ```
 ssh -R 80:localhost:5005 nokey@localhost.run
