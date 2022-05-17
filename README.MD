@@ -46,7 +46,7 @@ This project is dedicated to preserving and renewing this Flash game so that it'
 
 ## How to install ?
 ### Installing on Android using Termux
-1. Install Puffin Browser on Play Store
+1. Install Puffin Browser from Play Store
 2. Download Termux latest version from here: https://github.com/termux/termux-app/releases
 3. Copy paste this command to Termux (You only need to do this once):
 ```
