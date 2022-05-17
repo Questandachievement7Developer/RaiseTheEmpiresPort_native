@@ -60,9 +60,10 @@ pip install "git+https://github.com/hex-in/libscrc.git"
 pip install tendo py3amf "flask<2.1.0" flask_session flask_sqlalchemy flask_compress flask_socketio daiquiri python-editor xmldiff jsonpatch tqdm
 ##
 ```
-3. If there's confirmation [Y/n]..?, type Y
-4. If there are several confirmations [Y/I/N/O/D/Z]..?, type Y
-5. Wait until the installation is completed (and make sure your internet is stable)
+4. Press Enter to run the command
+5. If there's confirmation [Y/n]..?, type Y
+6. If there are several confirmations [Y/I/N/O/D/Z]..?, type Y
+7. Wait until the installation is completed (and make sure your internet is stable)
 
 Then use this command everytime you want to play:
 ```
