@@ -103,7 +103,7 @@ pip3 install -r requirements.txt
 
 Then use this command everytime you want to play:
 ```
-python empires-server.py --no-popup --no-crash-log --port 5005
+python3 empires-server.py --no-popup --no-crash-log --port 5005
 ```
 You need to use Flash-enabled browser, then go to this url: http://127.0.0.1:5005
 
@@ -131,7 +131,7 @@ If there's notice that you haven't install Xcode, install it first
 
 Then use this command everytime you want to play:
 ```
-python empires-server.py --no-popup --no-crash-log --port 5005
+python3 empires-server.py --no-popup --no-crash-log --port 5005
 ```
 You need to use Flash-enabled browser, then go to this url: http://127.0.0.1:5005
 
